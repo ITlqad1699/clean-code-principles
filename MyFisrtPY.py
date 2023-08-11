@@ -1,6 +1,9 @@
-import numpy as np
 import pandas as pd
 
-def SetUpData(args):
-    args = 1
-    
+def read_data(file_path):
+    try:
+            df = pd.read_csv(file_path)
+    except FileNotFoundError:
+            print("file not found")
+
+read_data("path")
