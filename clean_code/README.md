@@ -11,9 +11,9 @@ Source code: projects/clean_code
 ├── README.md
 ├── churn_library.py
 ├── churn_script_logging_and_tests.py
-├── data
+├── input_data
 │   └── bank_data.csv
-├── images
+├── image
 │   ├── eda
 │   │   ├── churn_histogram.png
 │   │   ├── customer_age_histogram.png
@@ -28,7 +28,7 @@ Source code: projects/clean_code
 │       └── rf_classification_report.png
 ├── logs
 │   └── churn_library.log
-├── models
+├── model_perform
 │   ├── logistic_model.pkl
 │   └── rfc_model.pkl
 └── requirements.txt
